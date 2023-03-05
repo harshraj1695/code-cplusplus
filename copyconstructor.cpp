@@ -10,7 +10,7 @@ class Number{
         Number(int num){
             a = num;
         }
-        // When no copy constructor is found, compiler supplies its own copy constructor
+        // When non copy constructor is found, compiler supplies its own copy constructor
         Number(Number &obj){
             cout<<"Copy constructor called!!!"<<endl;
             a = obj.a;
