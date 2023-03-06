@@ -2,7 +2,7 @@
 using namespace std;
 
 int main()
-{
+{  //to print next character
 	char ch;
 	cout<< "\nEnter any character : ";
 	cin>>ch;
